@@ -1,0 +1,33 @@
+{
+  "name": "cra-template-typescript-styled-components",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "styled-components"
+  ],
+  "description": "The base TypeScript template for Create React App + Styled Components.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsakas/cra-template-typescript-styled-components.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "bugs": {
+    "url": "https://github.com/jsakas/cra-template-typescript-styled-components/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "scripts": {
+    "format": "yarn prettier --write --config template/.prettierrc.json ."
+  }
+}
